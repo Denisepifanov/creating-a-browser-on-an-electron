@@ -1,0 +1,40 @@
+body,
+html {
+  margin: 0; 
+  padding: 0; 
+  height: 100%;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+#url-bar {
+  width: 80%;
+  padding: 10px; 
+  border-radius: 64px; 
+}
+
+#nav-bar {
+  display: flex; 
+  align-items: center;
+  width: 100vw;
+  height: 50px; 
+  background: #6780ee;
+}
+
+#go-button {
+  padding: 10px; 
+  background-color: #d6fb51;
+  border-radius: 64px; 
+  color: #1b2b4c; 
+  margin-left: auto; 
+}
+#go-button:hover {
+  cursor: pointer; 
+  background-color: #1b2b4c; 
+  color: #f5f6f7; 
+}
+
+#browser-content {
+  margin-top: 60px;
+  padding: 10px; 
+}
